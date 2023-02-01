@@ -658,9 +658,14 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 26px;
-margin-left: 230px;
-margin-top: 50px;
+
+
 color: #E3B873;
+}
+.flex {
+	display: flex;
+	margin-left: 140px;
+	margin-top: 50px;
 }
 .Help::before {
 	content: 
@@ -785,6 +790,139 @@ color: #959595;
 	background: #FFFFFF;
 box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
 }
-img {
-	color:black;
+.container-7 {
+	max-width: 883px;
+	margin: 0 auto;
+	min-height: 500px;
+	background: #181818;
+	position: relative;
+	top: 250px;
+	
+}
+.any {
+	font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+text-transform: uppercase;
+text-align: center;
+color: #FFFFFF;
+}
+.NamePhone {
+display: flex;
+}
+.input-4 {
+	background: transparent;
+	border:none;
+	border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+	width: 231px;
+}
+.name-5 {
+	margin-left: 170px;
+}
+.phone-5 {
+	margin-left: 100px;
+}
+.name-4 {
+	font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+
+color: rgba(255, 255, 255, 0.5);
+}
+.phone-4 {
+	font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+
+color: rgba(255, 255, 255, 0.5);
+}
+.input-5 {
+	background: transparent;
+	border:none;
+	border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+	width: 513px;
+}
+.Que {
+	margin-top: 50px;
+	margin-left: 170px;
+}
+.agree-10 {
+	margin-left: 230px;
+	margin-top: 48px;
+}
+.Submit-2 {
+	margin-left: 310px;
+	background: #E3B873;
+box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 27px;
+text-align: center;
+text-transform: uppercase;
+margin-top: 40px;
+color: #FFFFFF;
+padding: 15px 90px 15px 80px;
+
+}
+.container-8 {
+	display: grid;
+	background-image: url("building.png");
+    background-image:cover;
+    min-height: 954px;
+	 
+}
+.nansen {
+	font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+color: #E3B873;
+position: relative;
+z-index: 1;
+bottom: 700px;
+
+}
+.container-8::before {
+		content: "";
+	position: relative;
+	top: 0%;
+	left: 0%;
+	right: 0%;
+	bottom: 0%;
+background: rgba(0, 0, 0, 0.9);
+z-index: -1;
+ min-height: 954px;
+object-fit: fill;
+}
+.group-42 {
+	position: relative;
+	bottom: 650px;
+	left: 440px;
+}
+.tc {
+	position: relative;
+	bottom: 700px;
+	left: 250px;
+}
+.footer {
+	position: relative;
+	bottom: 680px;
+}
+.group-2 {
+	position: relative;
+	top: 50px;
+}
+@media screen(max-width: 768 px) and (max-width: 1300 px) {
+  
 }
